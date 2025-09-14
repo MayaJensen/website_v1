@@ -1,0 +1,252 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/* her starter menu css */
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  width: 65px;
+  height: 65px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  color: #333333;
+  text-decoration: none;
+  transition: color 0.3s;
+  text-align: end;
+}
+
+.menu a:hover {
+  color: #ff0000;
+}
+
+@media screen and (max-width: 800px) {
+  .menu {
+    display: none;
+  }
+}
+/* her slutter menu css */
+.header > :last-child {
+  margin-left: auto;
+}
+/*------------------------------------------/
+/* gælder alle */
+h1 {
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+h2 {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+p {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+ul {
+  margin-left: 30px;
+}
+.highlight {
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 60px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1rem;
+}
+
+img {
+  border-radius: 20px;
+  height: auto;
+  padding: 10px;
+}
+
+/* ---------------------------------------------------- */
+
+/* min computer */
+
+.highlight {
+  font-weight: bold;
+}
+
+.mincomputer {
+  background-color: #f8f0dce6;
+  color: #000000;
+
+  border-radius: 8px;
+  text-wrap: pretty;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+/* ---------------------------------------------------- */
+/* index/forside */
+
+a {
+  font-style: italic;
+}
+a.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #b0ad9c;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+  box-shadow: 1px 1px 1px 1px #2e2e2f;
+  margin-left: 20px;
+}
+
+a.btn:hover {
+  background-color: #b0ad9c;
+  color: #ffffff;
+}
+
+dd,
+dt {
+  margin-left: 20px;
+}
+
+.procenter dl {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  padding: 0.5em;
+}
+.procenter dl div {
+  background: #b0ad9c;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 2px 2px 2px 2px #302f30;
+  text-align: center;
+}
+
+.percentage {
+  font-size: 25px;
+  font-weight: bold;
+  color: #000000;
+}
+.forside {
+  background-color: #f8f0dce6;
+  color: #000000;
+
+  border-radius: 8px;
+  text-wrap: pretty;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+/* ---------------------------------------------------- */
+/* komponenter */
+h3 {
+  margin-left: 20px;
+  margin-bottom: 2px;
+  margin-top: 10px;
+}
+
+.komponenter {
+  font-family: Consolas, "Courier New", monospace;
+  background-color: #f8f0dce6;
+  color: #000000;
+
+  border-radius: 8px;
+  text-wrap: pretty;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+/* ---------------------------------------------------- */
+/*operative systemer*/
+
+.operativesystemer {
+  background-color: #f8f0dce6;
+  color: #000000;
+
+  border-radius: 8px;
+  text-wrap: pretty;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+/* ---------------------------------------------------- */
+/*galleri*/
+
+.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: lighter;
+  font-style: normal;
+}
+
+.galleri {
+  background-color: #f8f0dce6;
+  color: #000000;
+
+  border-radius: 8px;
+  text-wrap: pretty;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+.galleri h2 {
+  margin-top: 30px;
+}
+.galleri h1 {
+  font-size: 50px;
+}
+.computersetup,
+.chip {
+  width: 48%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* ---------------------------------------------------- */
